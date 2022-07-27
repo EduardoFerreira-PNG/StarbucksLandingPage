@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Starbucks Landing Page</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="center">
+            <div class="logo"><img src="assets/images/logo.png" alt="Logo Starbucks"></div>
+            <nav class="menu">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">What's New</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+        <!--center-->
+    </header>
+    <main>
+        <section class="sobre">
+            <div class="produto">
+                <img class="img__produto" src="assets/images/img1.png" alt="imagem do café" imagem>
+                <div class="social__media">
+                    <a href="#"><img src="assets/images/instagram.png" alt="icone Instagram"></a>
+                    <a href="#"><img src="assets/images/twitter.png" alt="icone Twitter"></a>
+                    <a href="#"><img src="assets/images/facebook.png" alt="icone Facebook"></a>
+                </div>
+            </div>
+            <div class="texto__sobre">
+                <h1>It's not just Coffe<br />It's <span style="color: #017143; font-weight: 800;">Starbucks</span></h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.</p>
+                <a href="#">Learn More!</a>
+            </div>
+        </section>
+
+        <footer>
+            <img src="assets/images/thumb1.png" alt="Produto Starbucks"
+                onclick="imgSlider('assets/images/img1.png');mudarCorDoFundo('#017143')">
+            <img src="assets/images/thumb2.png" alt="Produto Starbucks"
+                onclick="imgSlider('assets/images/img2.png');mudarCorDoFundo('#eb7495')">
+            <img src="assets/images/thumb3.png" alt="Produto Starbucks"
+                onclick="imgSlider('assets/images/img3.png');mudarCorDoFundo('#d752b1')">
+        </footer>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
